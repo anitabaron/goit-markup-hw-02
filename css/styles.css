@@ -10,11 +10,12 @@ body {
 .button-click {
     background-color: #4d5ae5;
     color: #fff;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: url(hand.cur), pointer;
+    cursor: pointer;
 }
 
 .button-click:hover {
@@ -86,7 +87,9 @@ body {
     color: #ffffff;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07143;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .text-bright {
@@ -97,7 +100,10 @@ body {
     color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11111;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .list-titles {
@@ -105,11 +111,15 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
-.list-titles p {
+ul p {
     color: #434455;
     font-size: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-background {
