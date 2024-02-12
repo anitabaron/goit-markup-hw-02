@@ -1,8 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #435543;
-    font-size: 16;
+    color: #434455;
+    background-color: #ffffff;
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .button-click {
@@ -11,6 +13,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: url(hand.cur), pointer;
 }
 
@@ -27,6 +30,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
@@ -40,17 +44,30 @@ body {
 
 .logo {
     font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.logo .logo-dark {
+    color: #2e2f42;
+}
+
+.logo .logo-bright {
+    color: #f4f4fd;
 }
 
 .contact-list .link {
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .contact-list .link:hover {
@@ -61,23 +78,31 @@ body {
     color: #404bbf;
 }
 
+.blue-box {
+    background-color: #2e2f42;
+}
+
 .main-header {
     color: #ffffff;
-    font-size: 56;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.07143;
 }
 
+.text-bright {
+    color: #f4f4fd;
+}
+
 .header-titles {
     color: #2e2f42;
-    font-size: 36;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.11111;
 }
 
 .list-titles {
     color: #2e2f42;
-    font-size: 20;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
 }
@@ -85,4 +110,12 @@ body {
 .list-titles p {
     color: #434455;
     font-size: 16px;
+}
+
+.team-background {
+    background-color: #f4f4fd;
+}
+
+.footer-background {
+    background-color: #2e2f42;
 }
