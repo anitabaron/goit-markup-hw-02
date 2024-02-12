@@ -4,28 +4,40 @@
         <meta charset="UTF-8" />
         <meta name="description" content="Web studio company" />
         <title>Web Studio</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header>
             <!--Left navi-->
-            <nav>
-                <a href="./index.html">WebStudio</a>
+            <nav class="navigation">
+                <a href="./index.html" class="logo">WebStudio</a>
                 <ul>
                     <li><a href="/studio.html">Studio</a></li>
-                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li>
+                        <a href="/portfolio.html">Portfolio</a>
+                    </li>
                     <li><a href="/contacts.html">Contacts</a></li>
                 </ul>
             </nav>
+
             <!--Right navi-->
-            <address>
+            <address class="contact-list">
                 <ul>
                     <li>
-                        <a href="mailto:info@devstudio.com"
+                        <a href="mailto:info@devstudio.com" class="link"
                             >info@devstudio.com</a
                         >
                     </li>
                     <li>
-                        <a href="tel:+110001111111"> +11 (000) 111-11-11</a>
+                        <a href="tel:+110001111111" class="link">
+                            +11 (000) 111-11-11</a
+                        >
                     </li>
                 </ul>
             </address>
@@ -33,29 +45,34 @@
         <main>
             <!--Dark background-->
             <section>
-                <h1>Effective Solutions for Your Business</h1>
-                <button type="button">Order Service</button>
+                <h1 class="main-header">
+                    Effective Solutions for Your Business
+                </h1>
+                <button type="button" class="button-click">
+                    Order Service
+                </button>
             </section>
+
             <!--List 4 columns-->
             <section>
-                <h2>4 columns</h2>
+                <h2 class="header-titles">4 columns</h2>
                 <ul>
                     <li>
-                        <h3>Strategy</h3>
+                        <h3 class="list-titles">Strategy</h3>
                         <p>
                             Our goal is to identify the business problem to walk
                             away with the perfect and creative solution.
                         </p>
                     </li>
                     <li>
-                        <h3>Punctuality</h3>
+                        <h3 class="list-titles">Punctuality</h3>
                         <p>
                             Bring the key message to the brand's audience for
                             the best price within the shortest possible time.
                         </p>
                     </li>
                     <li>
-                        <h3>Diligence</h3>
+                        <h3 class="list-titles">Diligence</h3>
                         <p>
                             Research and confirm brands that present the
                             strongest digital growth opportunities and minimize
@@ -63,7 +80,7 @@
                         </p>
                     </li>
                     <li>
-                        <h3>Technologies</h3>
+                        <h3 class="list-titles">Technologies</h3>
                         <p>
                             Design practice focused on digital experiences. We
                             bring forth a deep passion for problem-solving.
@@ -71,39 +88,10 @@
                     </li>
                 </ul>
             </section>
-            <!--List 3 images-->
-            <section>
-                <h2>What are we doing</h2>
-                <ul>
-                    <li>
-                        <img
-                            src="./images/tech1.jpg"
-                            alt="Computer"
-                            width="360"
-                            height="300"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            src="./images/tech2.jpg"
-                            alt="Smartphone"
-                            width="360"
-                            height="300"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            src="./images/tech3.jpg"
-                            alt="Connection"
-                            width="360"
-                            height="300"
-                        />
-                    </li>
-                </ul>
-            </section>
+
             <!--Team photo-->
             <section>
-                <h2>Our Team</h2>
+                <h2 class="header-titles">Our Team</h2>
                 <ul>
                     <li>
                         <img
@@ -112,7 +100,7 @@
                             width="264"
                             height="260"
                         />
-                        <h3>Mark Guerrero</h3>
+                        <h3 class="list-titles">Mark Guerrero</h3>
                         <p>Product Designer</p>
                     </li>
                     <li>
@@ -122,7 +110,7 @@
                             width="264"
                             height="260"
                         />
-                        <h3>Tom Ford</h3>
+                        <h3 class="list-titles">Tom Ford</h3>
                         <p>Frontend Developer</p>
                     </li>
                     <li>
@@ -132,7 +120,7 @@
                             width="264"
                             height="260"
                         />
-                        <h3>Camila Garcia</h3>
+                        <h3 class="list-titles">Camila Garcia</h3>
                         <p>Marketing</p>
                     </li>
                     <li>
@@ -142,12 +130,79 @@
                             width="264"
                             height="260"
                         />
-                        <h3>Daniel Wilson</h3>
+                        <h3 class="list-titles">Daniel Wilson</h3>
                         <p>UI Designer</p>
                     </li>
                 </ul>
             </section>
         </main>
+        <!--Our portfolio-->
+        <section>
+            <h2 class="header-titles">Our Portfolio</h2>
+            <ul>
+                <li>
+                    <img
+                        src="./images/banking.jpg"
+                        alt="Layout of a banking app"
+                        width="360"
+                        height="300"
+                    />
+                    <h3 class="list-titles">Banking App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img
+                        src="./images/cashless.jpg"
+                        alt="Layout of a banking app"
+                        width="360"
+                        height="300"
+                    />
+                    <h3 class="list-titles">Cashless Payment</h3>
+                    <p>Payment with smartphone</p>
+                </li>
+                <li>
+                    <img
+                        src="./images/meditation.jpg"
+                        alt="Laptop and smartphone with meditation app"
+                        width="360"
+                        height="300"
+                    />
+                    <h3 class="list-titles">Meditation App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img
+                        src="./images/taxi.jpg"
+                        alt="Inside of a car"
+                        width="360"
+                        height="300"
+                    />
+                    <h3 class="list-titles">Taxi Service</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img
+                        src="./images/screen.jpg"
+                        alt="Smartphone screen layouts"
+                        width="360"
+                        height="300"
+                    />
+                    <h3 class="list-titles">Screen Illustrations</h3>
+                    <p>Design</p>
+                </li>
+                <li>
+                    <img
+                        src="./images/online.jpg"
+                        alt="Girl with smartphone"
+                        width="360"
+                        height="300"
+                    />
+                    <h3 class="list-titles">Online Courses</h3>
+                    <p>Marketing</p>
+                </li>
+            </ul>
+        </section>
+
         <!--Dark end-->
         <footer>
             <a href="./index.html">WebStudio</a>

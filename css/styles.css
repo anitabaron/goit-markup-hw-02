@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16;
+}
+
+.button-click {
+    background-color: #4d5ae5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button-click:hover {
+    background-color: #404bbf;
+}
+
+.button-click:active {
+    background-color: #404bbf;
+}
+
+.navigation {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation:hover {
+    color: #404bbf;
+}
+
+.navigation:active {
+    color: #404bbf;
+}
+
+.link {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.link:hover {
+    color: #404bbf;
+}
+
+.link:active {
+    color: #404bbf;
+}
+
+.contact-list {
+    color: #2e2f42;
+}
+
+.contact-list:hover {
+    color: #404bbf;
+}
+
+.contact-list:active {
+    color: #404bbf;
+}
+
+.main-header {
+    color: #ffffff;
+    font-size: 56;
+    font-weight: 700;
+}
+
+.header-titles {
+    color: #2e2f42;
+    font-size: 36;
+    font-weight: 700;
+}
+
+.list-titles {
+    color: #2e2f42;
+    font-size: 20;
+    font-weight: 500;
+}
+
+.list-titles p {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+}
