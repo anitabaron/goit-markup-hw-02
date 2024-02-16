@@ -27,6 +27,10 @@ body {
     background-color: #404bbf;
 }
 
+.contact-list {
+    font-style: normal;
+}
+
 .left-navi-list {
     list-style: none;
 }
@@ -48,7 +52,8 @@ body {
 }
 
 .navigation .link {
-    color: #2e2f42;
+    /* color: #2e2f42; */
+    color: #434455;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -140,7 +145,7 @@ body {
     text-align: center;
 }
 
-.person-list {
+.card {
     background-color: #ffffff;
 }
 
