@@ -10,7 +10,7 @@ body {
 .button-click {
     background-color: #4d5ae5;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -18,12 +18,33 @@ body {
     cursor: pointer;
 }
 
-.button-click:hover {
+.button-click:hover,
+.button-click:focus {
     background-color: #404bbf;
 }
 
 .button-click:active {
     background-color: #404bbf;
+}
+
+.left-navi-list {
+    list-style: none;
+}
+
+.right-navi-list {
+    list-style: none;
+}
+
+.goals-list {
+    list-style: none;
+}
+
+.person-list {
+    list-style: none;
+}
+
+.portfolio-list {
+    list-style: none;
 }
 
 .navigation .link {
@@ -33,9 +54,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    font-style: normal;
 }
 
-.navigation .link:hover {
+.navigation .link:hover,
+.navigation .link:focus {
     color: #404bbf;
 }
 
@@ -62,20 +85,22 @@ body {
     color: #f4f4fd;
 }
 
-.contact-list .link {
+.contact-link {
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
-.contact-list .link:hover {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
-.contact-list .link:active {
+.contact-link:active {
     color: #404bbf;
 }
 
@@ -113,6 +138,10 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.person-list {
+    background-color: #ffffff;
 }
 
 ul p {
