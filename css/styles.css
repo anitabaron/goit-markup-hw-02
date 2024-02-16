@@ -51,9 +51,8 @@ body {
     list-style: none;
 }
 
-.navigation .link {
-    /* color: #2e2f42; */
-    color: #434455;
+.link {
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -62,12 +61,12 @@ body {
     font-style: normal;
 }
 
-.navigation .link:hover,
-.navigation .link:focus {
+.link:hover,
+.link:focus {
     color: #404bbf;
 }
 
-.navigation .link:active {
+.link:active {
     color: #404bbf;
 }
 
@@ -91,7 +90,7 @@ body {
 }
 
 .contact-link {
-    color: #2e2f42;
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
